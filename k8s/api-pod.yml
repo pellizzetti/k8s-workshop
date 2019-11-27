@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: api
+  labels:
+    name: api
+spec:
+  containers:
+  - name: api
+    image: k8s-api:0.0.1
+    resources:
+      requests:
+        memory: 56Mi
+        cpu: 20m
+      limits:
+        memory: 128Mi
+        cpu: 60m
+    ports:
+      - containerPort: 3333
+      - containerPort: 9000
+
