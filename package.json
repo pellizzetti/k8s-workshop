@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/pellizzetti/k8s-workshop#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "lightship": "^4.3.7"
   },
   "devDependencies": {
